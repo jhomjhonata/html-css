@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Video com HTML 5</title>
+</head>
+<body>
+
+    <h1>Inserido Videos no Site Hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video controls preload="metadata" width="560px" poster="img/thumb.png">
+        <source src="midias/meu-video.mp4" type="video/mp4">
+        <!--Voce pode add outras types abaixo desta variando apenas o formato do video. Como: mp4/ogv/webm-->
+        <p>Seu navegador não conseguiu rodar o video <a href="midias/meu-video.mp4" download="midias/meu-video.mp4">CLIQUE AQUI</a> para baixa-lo</p>
+    </video>
+
+    <h1>Inserindo Video do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

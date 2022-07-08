@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes Externas Baixadas</title>
+
+    <style>
+
+        @font-face {
+            font-family: 'spider';
+            src: url('fonts/spider.ttf') format('truetype');/*, url(fonts/spider-bold.ttf) format(truetype);
+            font-weight: normal;*/
+            font-style: normal;
+        }
+
+        h1{
+            font-family: 'spider';
+            font-weight: bold;
+            background-image: linear-gradient(to left, black 5%, rgb(66, 66, 233), rgb(221, 52, 52));
+        }
+
+        p{
+            font-family: 'spider';
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Teste de Tirulo com fontes externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nulla impedit omnis officia voluptatibus hic officiis dolorum dolore fugit quod placeat nostrum odit quos magni, consequatur sed! Veritatis, ea itaque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam, esse at earum dolor sit exercitationem deserunt blanditiis officiis sequi ea, ut vitae quaerat asperiores labore a et harum ipsa!</p>
+    
+</body>
+</html>

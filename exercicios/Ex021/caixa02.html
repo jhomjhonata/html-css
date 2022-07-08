@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouoing Tags</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 5px 5px 6px rgba(3, 3, 3, 0.76);
+        }
+
+        nav > a{
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            margin: auto;
+            text-align: center;
+        }
+
+        nav > a:hover{
+            text-decoration: solid;
+            color: white;
+            background-color: black;
+        }
+
+        section > article > h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section > article > p{
+            text-indent: 30px;
+            text-align: justify;
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 20px 20px 0px;
+        }
+        
+        aside{
+            background-color: rgb(190, 186, 186);
+            font-weight: bold;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        div#bola{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Teste</a>
+            <a href="#">Teste</a>
+            <a href="#">Teste</a>
+            <a href="#">Teste</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium illo beatae quos soluta earum dignissimos ipsa incidunt exercitationem ab.</p>
+        <section>
+            <article>
+                <h2>Nocticias do País</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo nesciunt, totam ab officiis similique soluta possimus modi eum. Iste consectetur doloribus possimus, optio iusto quaerat assumenda aliquid illo enim vero consequuntur eum placeat cupiditate corporis ut quam esse! Illum pariatur labore maxime voluptate maiores tenetur dicta officiis sequi facere doloribus?
+                </p>
+                <aside>
+                    <p>Texto Escrito por Fulando de Tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Vairos peoples</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

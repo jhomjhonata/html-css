@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: aqua;
+            background-color: black;
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: red;
+        }
+
+        li > a::after{
+            content: '[link]';
+            color: black;
+            font-weight: lighter;
+        }
+
+        a:active{
+            color: gold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a target="_blank" href="https://youtube.com">YouTube</a></li>
+    <li><a target="_blank" href="https://google.com">Google</a></li>
+    <li><a target="_blank" href="https://facebook.com">Facebook</a></li>
+</body>
+</html>
